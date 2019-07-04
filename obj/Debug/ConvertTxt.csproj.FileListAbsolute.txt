@@ -1,0 +1,5 @@
+C:\Users\rita.aguiar\Documents\AutoCAD plug-in\C#\ConvertTxt\ConvertTxt\bin\Debug\ConvertTxt.dll
+C:\Users\rita.aguiar\Documents\AutoCAD plug-in\C#\ConvertTxt\ConvertTxt\bin\Debug\ConvertTxt.pdb
+C:\Users\rita.aguiar\Documents\AutoCAD plug-in\C#\ConvertTxt\ConvertTxt\obj\Debug\ConvertTxt.csproj.CoreCompileInputs.cache
+C:\Users\rita.aguiar\Documents\AutoCAD plug-in\C#\ConvertTxt\ConvertTxt\obj\Debug\ConvertTxt.dll
+C:\Users\rita.aguiar\Documents\AutoCAD plug-in\C#\ConvertTxt\ConvertTxt\obj\Debug\ConvertTxt.pdb
