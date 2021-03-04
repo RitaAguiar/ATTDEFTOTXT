@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿#region namespaces
 using Autodesk.AutoCAD.Runtime;
 using Autodesk.AutoCAD.ApplicationServices;
 using Autodesk.AutoCAD.DatabaseServices;
@@ -10,6 +6,7 @@ using Autodesk.AutoCAD.Geometry;
 using Autodesk.AutoCAD.EditorInput;
 using Autodesk.AutoCAD.Colors;
 using CAD = Autodesk.AutoCAD.ApplicationServices.Core;
+#endregion //namespaces
 
 [assembly: CommandClass(typeof(ConvertTxt.Class1))]
 

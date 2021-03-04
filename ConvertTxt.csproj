@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ConvertTxt</RootNamespace>
     <AssemblyName>ConvertTxt</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -31,17 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AcCoreMgd">
-      <HintPath>..\..\..\..\..\..\..\ObjectARX\inc\AcCoreMgd.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="accoremgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\accoremgd.dll</HintPath>
     </Reference>
-    <Reference Include="AcDbMgd">
-      <HintPath>..\..\..\..\..\..\..\ObjectARX\inc\AcDbMgd.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="acdbmgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\acdbmgd.dll</HintPath>
     </Reference>
-    <Reference Include="AcMgd">
-      <HintPath>..\..\..\..\..\..\..\ObjectARX\inc\AcMgd.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="acmgd">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\AutoCAD 2021\acmgd.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
